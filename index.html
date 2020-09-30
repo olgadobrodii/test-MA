@@ -1,0 +1,55 @@
+<!-- Front-end Advanced course is an Advanced level course. 
+That's why you need to do the test task for approving your registration.
+Let's do this task...
+
+You need to add a text input and a button. 
+After clicking the button or pressing the enter button on your keyboard, you need to add the entered text to the page and highlight it in:
+green if the user has entered more than 3 characters;
+red if the user has entered a special symbol (!@#$&*%) etc.
+After adding a text, the input should be cleared.
+
+It will be a plus if you add some CSS magic, so your form will look good ))
+Completed task should be uploaded to github as your own repository. 
+Link to that repository should be added to this field of the registration form.
+
+Вам потрібно додати введення тексту та кнопку.
+Після натискання кнопки або натискання кнопки введення на клавіатурі потрібно додати введений текст на сторінку та виділити його в:
+зелений, якщо користувач ввів більше 3 символів;
+червоний, якщо користувач ввів спеціальний символ (! @ # $ & *%) тощо.
+Після додавання тексту введення слід очистити.
+
+Це буде плюсом, якщо ви додасте трохи магії CSS, тому ваша форма буде виглядати добре))
+Виконане завдання слід завантажити у github як власне сховище. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1> Account</h1>    
+        <div> 
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" placeholder="name17" id="username">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>e-mail</label>
+                <input type="text" placeholder="name@ukr.com" id="email">
+                <small>Error message</small>
+            </div>
+
+            <button>submit</button>
+        </form>
+    </div>
+
+</body>
+    <script src="script.js"></script>
+</html>
